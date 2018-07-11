@@ -33,4 +33,9 @@ public class Pg_Home
 	
 	public static By Lnk_Admin_Plugins=By.xpath("(//*[text()='Plugins'])[1]");
 	
+	public static By Lnk_ThemePreviewer=By.xpath("//*[@class='theme-previewer-link pull-right ng-binding']");
+	
+	public static By Btn_ControlPanel=By.xpath("//*[text()='Back to Control Panel']");
+	
+	
 }

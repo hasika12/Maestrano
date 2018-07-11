@@ -15,7 +15,7 @@
 	<classpathentry kind="lib" path="Jars/reflections-0.9.5.jar"/>
 	<classpathentry kind="lib" path="Jars/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="lib" path="Jars/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="Jars/ATUTestRecorder_2.1.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/Selenium Versions/selenium-server-standalone-3.11.0.jar"/>
+	<classpathentry kind="lib" path="F:/Frameworks/TMFV1.0/Jars/ATUTestRecorder_2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

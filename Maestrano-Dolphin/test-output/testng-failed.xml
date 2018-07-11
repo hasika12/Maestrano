@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScriptDefinitions.AdminModule.TC104_AddingProducts">
+      <class name="testScriptDefinitions.AdminModule.TC103_Admin_GeneralSettings">
         <methods>
           <include name="setUp"/>
           <include name="scriptDefinition"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testScriptDefinitions.AdminModule.TC104_AddingProducts -->
+      </class> <!-- testScriptDefinitions.AdminModule.TC103_Admin_GeneralSettings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
