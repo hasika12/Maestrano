@@ -195,11 +195,22 @@ public class TC103_Admin_GeneralSettings extends UserLibrary
 			flog = "Step 24: 'Price List' link doesnot exists on Dashboard of Admin HomePage evenafter enabling it in general tab under customer features";
 			logEvent(stepstatus, plog, flog, driver, true);
 			
-			wait(15);
+			wait(10);
+			
+			
+			stepstatus = clickElement(Pg_Home.Lnk_Admin_PriceList, driver);
+			plog = "Step 24.1: Able to click on 'Price List' after enabling it on general features" ;
+			flog = " Step 24.1: UnAble to click on 'Price List' after enabling it on general features";
+			logEvent(stepstatus, plog, flog, driver, false);
 		}
 		//=====================================================================================================================================
 		
 		wait(7);
+		
+		stepstatus = clickElement(Pg_Home.Lnk_Admin_General, driver);
+		plog = "Step 24.2: Able to click on 'General' Link on Home page of Admin";
+		flog = " Step 24.2: UnAble to click on 'General' Link on Home page of Admin";
+		logEvent(stepstatus, plog, flog, driver, false);
 		
 		stepstatus = clickElement(Pg_General_Settings.Lnk_CustomerFeatures, driver);
 		plog = "Step 25: Able to click on 'Customer Features' Link on Settings Page";
@@ -470,6 +481,12 @@ public class TC103_Admin_GeneralSettings extends UserLibrary
 			plog = "Step 55:Marketplace Icon exists on dashboard of Access Company View page";
 			flog = "Step 55:Marketplace Icon does not exists on dashboard of Access Company View page";
 			logEvent(stepstatus, plog, flog, driver, true);
+			
+			stepstatus = clickElement(Pg_CreatingProduct.Lnk_MarketplaceIcon, driver);
+			plog = "Step 55.1:Able to click on 'MarketplaceIcon' after enabling it in General settings";
+			flog = " Step 55.1:UnAble to click on 'MarketplaceIcon' after enabling it in General settings";
+			logEvent(stepstatus, plog, flog, driver, false);
+			
 		}
 		//=====================================================================================================================================
 		
@@ -643,6 +660,11 @@ public class TC103_Admin_GeneralSettings extends UserLibrary
 			plog = "Step 79: 'Import Customers' link exists under 'New Customer' after Enabling 'Mass Import' in 'Admin Features'";
 			flog = "Step 79: 'Import Customers' link does not exists under 'New Customer' even after Enabling 'Mass Import' in 'Admin Features'";
 			logEvent(stepstatus, plog, flog, driver, true); 
+			
+			stepstatus = clickElement(Pg_Customers_Admin.Lnk_ImportCustomers, driver);
+			plog = "Step 79.1: Able to click on 'Import Customers' after enabling it in General Features";
+			flog = " Step 79.1: UnAble to click on 'Import Customers' after enabling it in General Features";
+			logEvent(stepstatus, plog, flog, driver, false);
 			
 			
 			wait(7);
@@ -856,6 +878,7 @@ wait(5);
 		flog = " Step 108: UnAble to click on 'General' Link on Home page of Admin";
 		logEvent(stepstatus, plog, flog, driver, false);
 		
+		wait(10);
 
 		stepstatus = clickElement(Pg_LogOutMaestrano.Lnk_Name, driver);
 		plog = "Step 109:Able to click on Name link";
