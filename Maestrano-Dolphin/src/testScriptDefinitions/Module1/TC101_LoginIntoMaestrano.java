@@ -20,6 +20,9 @@ public class TC101_LoginIntoMaestrano extends UserLibrary
   @Test
   public void scriptDefinition() 
   {
+	  
+	  //https://inverse-dolphin.uat.opal.maestrano.io
+		  
 		WebDriver driver = launchBrowser("chrome");
 		driver = SetImplicitWait(20, driver);
 

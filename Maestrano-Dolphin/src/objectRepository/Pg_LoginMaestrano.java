@@ -15,9 +15,6 @@ public class Pg_LoginMaestrano
 	
 	public static By Btn_SignIn=By.xpath("//*[@class='btn btn-warning btn-login']");
 	
-	
-	
-	
-	
+
 
 }

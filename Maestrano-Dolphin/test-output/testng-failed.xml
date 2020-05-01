@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScriptDefinitions.AdminModule.TC103_Admin_GeneralSettings">
+      <class name="testScriptDefinitions.AdminModule.TC101_LoginIntoMaestrano">
         <methods>
-          <include name="setUp"/>
           <include name="scriptDefinition"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testScriptDefinitions.AdminModule.TC103_Admin_GeneralSettings -->
+      </class> <!-- testScriptDefinitions.AdminModule.TC101_LoginIntoMaestrano -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
